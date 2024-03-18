@@ -27,6 +27,9 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 -- No one likes Q
 vim.keymap.set("n", "Q", "<nop>")
 
+-- Tab management
+vim.keymap.set("n", "<C-\\>", ":tabnew")
+
 -- Get tmux working to do this
 -- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 -- vim.keymap.set("n", "<leader>f", function()
