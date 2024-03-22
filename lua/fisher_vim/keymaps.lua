@@ -1,4 +1,4 @@
-vim.keymap.set("n", "<C-b>", vim.cmd.Ex)
+vim.keymap.set('n', '<C-b>', vim.cmd.Ex)
 
 -- Allow moving lines up and down when in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
