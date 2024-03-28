@@ -28,6 +28,9 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 -- No one likes Q
 vim.keymap.set("n", "Q", "<nop>")
 
+-- Remap Ctrl-C to esc for visual block inserting
+vim.keymap.set("i", "<C-c>", "<Esc>")
+
 -- Tab management
 -- vim.keymap.set("n", "<C-\\>", ":tabnew<cr>")
 
