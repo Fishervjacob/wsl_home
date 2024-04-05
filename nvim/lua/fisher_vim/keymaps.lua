@@ -31,6 +31,10 @@ vim.keymap.set("n", "Q", "<nop>")
 -- Remap Ctrl-C to esc for visual block inserting
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
+-- Turn numbers on/off
+vim.keymap.set("n", "<leader>nu", ":set nu rnu<CR>")
+vim.keymap.set("n", "<leader>non", ":set nonu nornu<CR>")
+
 -- Tab management
 -- vim.keymap.set("n", "<C-\\>", ":tabnew<cr>")
 
