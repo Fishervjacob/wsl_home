@@ -2,7 +2,7 @@
 ## https://www.howtogeek.com/devops/how-to-set-up-gitignore-as-a-whitelist/
 
 # Block everything
-*
+#*
 #!*/
 #.local/
 
@@ -11,7 +11,9 @@
 #!README.md
 #!.bash_aliases
 #!.bash_profile
+#!.config/
+
 
 
 # Blacklist
-#.config/tmux/plugins/*
+.config/tmux/plugins/*
