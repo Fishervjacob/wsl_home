@@ -1,0 +1,23 @@
+[user]
+	name = Jacob Fisher
+	email = 
+[push]
+	default = simple
+[alias]
+	s = status
+	d = diff
+	p = pull
+	pom = pull origin master
+	c = checkout
+	b = branch
+	ba = branch -a
+	bD = branch -D
+	pub = push -u origin
+	ct = checkout --track
+	si = submodule init
+	su = submodule update
+	l = log
+	hist = log -p --follow --
+	rup = remote update origin --prune
+[core]
+	editor = nvim
