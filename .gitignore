@@ -1,1 +1,14 @@
+## Whitelist only gitignore ##
+## https://www.howtogeek.com/devops/how-to-set-up-gitignore-as-a-whitelist/
+
+# Block everything
+*
+!*/
+
+# Whitelist
+!.gitignore
+!nvim/
+!tmux/
+
+# Blacklist
 tmux/plugins/*
