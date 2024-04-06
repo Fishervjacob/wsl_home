@@ -7,8 +7,10 @@
 
 # Whitelist
 !.gitignore
-!nvim/
-!tmux/
+!README.md
+!.bash_aliases
+!.bash_profile
+!.config/
 
 # Blacklist
-tmux/plugins/*
+.config/tmux/plugins/*
