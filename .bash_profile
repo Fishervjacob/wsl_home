@@ -13,7 +13,7 @@ export XDG_CONFIG_HOME=/home/fisher/.config
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$PATH:/opt/tmux/bin"
 
-# Tmux logic to start when open
+# Tmux logic to start when open: https://koenwoortman.com/tmux-sessions-should-be-nested-with-care-unset-tmux-to-force/
 session_name="sesh"
 # 1. First you check if a tmux session exists with a given name.
 tmux has-session -t=$session_name 2> /dev/null
