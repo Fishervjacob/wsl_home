@@ -22,8 +22,5 @@ There are many WSL home directories out there but this one is mine.
 > sudo apt install libncurses-dev
 - [Actual install instructions](https://github.com/tmux/tmux/wiki/Installing)
 
-Me change the readme
-Makin another change
-
 ## Misc notes
 - [Where do things get installed to](https://askubuntu.com/questions/408784/after-doing-a-sudo-apt-get-install-app-where-does-the-application-get-stored) - dpkg -L \<packagename\>
