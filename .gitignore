@@ -2,7 +2,7 @@
 ## https://www.howtogeek.com/devops/how-to-set-up-gitignore-as-a-whitelist/
 
 # Block everything
-#*
+*
 #!*/
 #.local/
 
