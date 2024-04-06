@@ -2,6 +2,9 @@
 
 There are many WSL home directories out there but this one is mine.
 
+## Installing WSL2 Ubuntu
+- [WSL install](https://learn.microsoft.com/en-us/windows/wsl/install)
+
 ## Installing NVIM
 - [GCC install](https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/) - Get the build essentials installed for Ubuntu
 > sudo apt update
