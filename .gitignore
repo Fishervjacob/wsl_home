@@ -3,17 +3,13 @@
 
 # Block everything
 *
-#!*/
-#.local/
+!*/
 
 # Whitelist
-#!.gitignore
-#!README.md
-#!.bash_aliases
-#!.bash_profile
-#!.config/
-
-
+!.config/*
 
 # Blacklist
+.local/
+.tmux/
+workspace/
 .config/tmux/plugins/*
