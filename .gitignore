@@ -3,7 +3,8 @@
 
 # Block everything
 *
-!*/
+#!*/
+#.local/
 
 # Whitelist
 #!.gitignore
@@ -11,5 +12,6 @@
 #!.bash_aliases
 #!.bash_profile
 
+
 # Blacklist
-.config/tmux/plugins/*
+#.config/tmux/plugins/*

@@ -3,3 +3,5 @@
 sudo apt install libevent-dev
 sudo apt-get install byacc
 sudo apt install libncurses-dev
+
+Me change the readme
