@@ -6,11 +6,10 @@
 !*/
 
 # Whitelist
-!.gitignore
-!README.md
-!.bash_aliases
-!.bash_profile
-!.config/
+#!.gitignore
+#!README.md
+#!.bash_aliases
+#!.bash_profile
 
 # Blacklist
 .config/tmux/plugins/*
