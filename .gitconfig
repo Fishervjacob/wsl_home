@@ -20,4 +20,4 @@
 	hist = log -p --follow --
 	rup = remote update origin --prune
 [core]
-	editor = nvim
+	editor = vim
