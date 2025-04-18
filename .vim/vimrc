@@ -1,0 +1,18 @@
+" Vundle stuff
+set nocompatible              " Required
+filetype off                  " Required
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Let Vundle manage itself
+Plugin 'VundleVim/Vundle.vim'
+
+" Other plugins:
+Plugin 'tpope/vim-fugitive'
+Plugin 'christoomey/vim-tmux-navigator'
+
+call vundle#end()            " Required
+filetype plugin indent on    " Required
+" End Vundle stuff

@@ -1,1 +1,0 @@
-require("fisher_vim")
