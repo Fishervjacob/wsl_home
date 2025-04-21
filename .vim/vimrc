@@ -1,18 +1,59 @@
+" Netrw settings
+let g:netrw_bufsettings = 'nu rnu'
+
+
+" Sets
+set nu rnu
+set nowrap
+set scrolloff=10
+set noswapfile
+" Tab stuff
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2 smarttab
+" On pressing tab, insert 2 spaces
+set expandtab
+" Style/Indentation
+set autoindent smartindent
+" Always see current file name w/ full path
+set laststatus=2
+set statusline+=%F
+" Ruler at 80 characters
+set colorcolumn=80
+hi ColorColumn ctermbg=238
+
+
+" Remaps
+" Stay in middle of page when using d or u
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+" Ctrl b opens netrw
+nnoremap <C-b> :Ex<CR>
+" No one likes normal mode Q
+nnoremap Q <nop>
+" Window command for tab split. Simulated full screen mode
+nnoremap <C-w>z :tab split<CR>
+" Remap Ctrl C in Insert mode to Esc because Ctrl C in visual block insert
+" does not apply the changes to every line that visual block is on.
+inoremap <C-c> <Esc>
+" :Q does what :q does
+:command Q q
+:command Qa qa
+" :W does what :w does
+:command W w
+
+
 " Vundle stuff
 set nocompatible              " Required
 filetype off                  " Required
-
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
 " Let Vundle manage itself
 Plugin 'VundleVim/Vundle.vim'
-
 " Other plugins:
 Plugin 'tpope/vim-fugitive'
 Plugin 'christoomey/vim-tmux-navigator'
-
 call vundle#end()            " Required
 filetype plugin indent on    " Required
 " End Vundle stuff
